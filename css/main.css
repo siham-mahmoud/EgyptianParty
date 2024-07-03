@@ -1,0 +1,147 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+
+
+}
+
+.red-color{
+    color: #D62E33;;
+}
+.red-bg{
+    background-color: #D62E33;
+}
+.dark-gray{
+    color: #444;
+ }
+.gray-text{
+    color: #777;
+}
+
+.container {
+    padding: 100px 0px;
+}
+
+.hero-img{
+    background-image: linear-gradient( rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)),url(../imgs/events-heavenly-header.jpg);
+    width: 100%;
+    height: 660px;
+
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#hero-content h2{
+ font-size: 60px;
+}
+#leftMenu {
+    height: 100%;
+      width:0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;}
+
+
+
+ .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+ .sidenav a {
+        padding: 20px 8px 20px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        color: white;
+     
+    }
+    .sidenav a:hover{
+        color: #D62E33;
+    }
+.singer-content{
+width: 70%;
+margin: 0 auto;
+
+}
+.first{
+    display: block;
+}
+.singer-content h3{
+ 
+        background-color: rgba(214, 46, 51, 0.6);
+        cursor: pointer;
+        color: white;
+        padding: 10px;
+        margin: 0px;
+}
+.singer-content p{
+    background-color: rgb(204, 204, 204);
+    display: none;
+    padding: 10px;
+}
+.countdown{
+    background-image: linear-gradient( rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)),url(../imgs/invitation-2508607__340.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 330px;
+
+    width: 100%;
+}
+.social-list i{
+    margin-top: 60px;
+    color: #777;
+    display: inline-block;
+}
+.social-list i{
+margin-right: 10px;
+border: 1px solid #999;
+width: 40px;
+height: 40px;
+line-height: 42px;
+cursor: pointer;
+text-align: center;
+}
+.btn:hover{
+    background-color: #D62E33 !important;
+}
+    
+.icons i {
+    margin-right: 20px;
+    color: #777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1400px) {
+    .container{
+        max-width: 1140px !important;
+    }
+}
