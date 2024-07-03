@@ -121,6 +121,10 @@ text-align: center;
     color: #777;
 }
 
+.social-list i:hover{
+    background-color: #D62E33 ;
+    color: white;
+}
 
 
 
